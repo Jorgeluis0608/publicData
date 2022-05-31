@@ -1,0 +1,707 @@
+@media(min-width:1200px){
+    .righ-bx-do{
+        background-color:#ffe9e9;
+        padding:50px 150px 50px 50px;
+        height:514px
+    }
+    .lef-bx-do{
+        background-color:#ebf9ea;
+        padding:50px 50px 50px 150px;
+        height:514px
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .centered2{
+        transform:translate(800px,-170%)
+    }
+    .navbar{
+        background:#011b2c
+    }
+    .vesco-nav-wrapper{
+        padding:0
+    }
+    .navbar-toggle{
+        background-color:transparent;
+        border:0 solid #fff;
+        border-radius:0
+    }
+    .navbar-toggle .icon-bar{
+        display:block;
+        width:30px;
+        height:2px;
+        border-radius:0
+    }
+    .navbar-toggle{
+        position:relative;
+        float:right;
+        margin-right:12px;
+        padding:9px 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        background-color:transparent;
+        background-image:none;
+        border:1px solid transparent;
+        border-radius:4px
+    }
+    .navbar-nav{
+        float:none!important;
+        margin:0 auto;
+        text-align:center;
+        padding:20px 20%
+    }
+    #customers-testimonials{
+        padding:20px 0
+    }
+    footer h4{
+        font-size:13px
+    }
+    .cstm-cntctf{
+        padding:7px
+    }
+    ul.lis-mnu-f li{
+        margin:0 10px
+    }
+    .lef-bx-do{
+        background-color:#ebf9ea;
+        padding:20px
+    }
+    .righ-bx-do{
+        background-color:#ffe9e9;
+        padding:20px
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .custom-container{
+        width: 80%;
+    }
+    .container-cstmzd3{
+        width:90%
+    }
+    .centered2{
+        transform:translate(600px,-170%)
+    }
+    form.home-search-frm{
+        display:grid
+    }
+    input#firstname,input#lastname,select#stts{
+        width:100%
+    }
+    #btn-frm-hm{
+        width:100%;
+        margin-bottom:20px
+    }
+    .container-cstmzd{
+        width:80%
+    }
+    .lef-bx-do{
+        padding:20px
+    }
+    .righ-bx-do{
+        padding:20px
+    }
+    .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{
+        display:block
+    }
+    .container-cstmzd2{
+        width: 80%;
+        max-width: unset;
+    }
+    .navbar{
+        background:#011b2c
+    }
+    .vesco-nav-wrapper{
+        padding:0
+    }
+    .navbar-toggle{
+        background-color:transparent;
+        border:0 solid #fff;
+        border-radius:0
+    }
+    .navbar-toggle .icon-bar{
+        display:block;
+        width:30px;
+        height:2px;
+        border-radius:0
+    }
+    .navbar-toggle{
+        position:relative;
+        float:right;
+        margin-right:12px;
+        padding:9px 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        background-color:transparent;
+        background-image:none;
+        border:1px solid transparent;
+        border-radius:4px
+    }
+    .navbar-nav{
+        float:none!important;
+        margin:0 auto;
+        text-align:center;
+        padding:20px 20%
+    }
+    #customers-testimonials{
+        padding:20px 0
+    }
+    footer h4{
+        font-size:13px
+    }
+    .cstm-cntctf{
+        padding:7px
+    }
+    ul.lis-mnu-f li{
+        margin:0 10px
+    }
+    .col-md-2-cstm{
+        width:33%;
+        margin:0;
+        float:left
+    }
+    .dos-boxes{
+        height:100%
+    }
+    #dos{
+        height:auto
+    }
+    #faq{
+        height:auto;
+        background-size: unset;
+    }
+    .col-md-2m,.col-md-3cm{
+        text-align:center;
+        margin-bottom:20px
+    }
+    ul.lis-mnu-f{
+        display:block
+    }
+    #home-heading h3{
+        font-size: 42px;
+    }
+    .fam-safebox div{
+        margin-bottom: 30px;
+    }
+    .fam-safebox img{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .fam-safebox{
+        display: block;
+        text-align: center;
+    }
+    .fam-safebox h3{
+        margin: 0 0 40px;
+    }
+}
+@media(max-width:767px){
+    #home-heading{
+        width: 90%;
+    }
+    #home{
+        height: auto;
+    }
+    #home-heading h3{
+        font-size: 42px;
+    }
+    .container-cstmzd3{
+        width:90%
+    }
+    .centered2{
+        transform:translate(400px,-170%)
+    }
+    .navbar{
+        background:#011b2c
+    }
+    form.home-search-frm{
+        display:grid
+    }
+    input#firstname,input#lastname,select#stts{
+        width:100%
+    }
+    #btn-frm-hm{
+        width:100%;
+        margin-bottom:20px
+    }
+    .container-cstmzd{
+        width:80%;
+        max-width: unset;
+    }
+    .lef-bx-do{
+        padding:20px
+    }
+    .righ-bx-do{
+        padding:20px
+    }
+    .container-cstmzd2{
+        width:90%;
+        max-width: unset;
+    }
+    .owl-next{
+        display:none!important
+    }
+    .owl-prev{
+        display:none!important
+    }
+    .Count-box h5{
+        font-size:30px
+    }
+    .Count-boxaf img{
+        width:60px;
+        margin:20px 0
+    }
+    .Count-boxbf img{
+        width:60px;
+        margin:20px 0
+    }
+    .Count-box{
+        width:100%
+    }
+    .vesco-nav-wrapper{
+        padding:0
+    }
+    .navbar-toggle{
+        background-color:transparent;
+        border:0 solid #fff;
+        border-radius:0
+    }
+    .navbar-toggle .icon-bar{
+        display:block;
+        width:30px;
+        height:2px;
+        border-radius:0
+    }
+    .navbar-toggle{
+        position:relative;
+        float:right;
+        margin-right:12px;
+        padding:9px 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        background-color:transparent;
+        background-image:none;
+        border:1px solid transparent;
+        border-radius:4px
+    }
+    .navbar-nav{
+        float:none!important;
+        margin:0 auto;
+        text-align:center;
+        padding:20px 20%
+    }
+    #customers-testimonials{
+        padding:20px 0
+    }
+    footer h4{
+        font-size:13px
+    }
+    .cstm-cntctf{
+        padding:7px
+    }
+    ul.lis-mnu-f li{
+        margin:0 10px
+    }
+    .col-md-2-cstm{
+        width:33%;
+        margin:0;
+        float:left
+    }
+    .dos-boxes{
+        height:100%
+    }
+    #dos{
+        height:auto
+    }
+    #faq{
+        height:auto
+    }
+    .col-md-2m,.col-md-3cm{
+        text-align:center;
+        margin-bottom:20px
+    }
+    ul.lis-mnu-f{
+        display:block
+    }
+    #home-heading h3{
+        font-size:30px
+    }
+    #home-heading h4{
+        font-size:18px
+    }
+    input#firstname,input#lastname,select#stts{
+        width:100%;
+        border-bottom:none;
+        border-top:none;
+        border-right:none;
+        border-left:none
+    }
+    #btn-frm-hm{
+        width:100%
+    }
+    button#btn-frm-hm{
+        border:none;
+        border-top-right-radius:0;
+        border-bottom-right-radius:5px;
+        border-bottom-left-radius:5px;
+        float:none
+    }
+    .content-title h3{
+        font-size:23px
+    }
+    .scl-mda-f{
+        float:none
+    }
+    ul.lis-mnu-f-scl li{
+        text-align:center!important;
+    }
+    .fam-safebox div{
+        margin-bottom: 30px;
+    }
+    .fam-safebox img{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .fam-safebox{
+        display: block;
+        text-align: center;
+    }
+    .fam-safebox h3{
+        margin: 0 0 40px;
+    }
+}
+@media(max-width:480px){
+    #filter-matches{
+        flex-direction: column;
+    }
+    #filter-contents{
+        width: 100%;
+        order: 1;
+    }
+    #filter-options{
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .container-cstmzd p{
+        font-size: 18px;
+    }
+    .testimonial{
+        padding: 20px 30px;
+    }
+    .content-box{
+        padding: 50px 0;
+    }
+    #dos{
+        padding: 40px 0;
+    }
+    #type-public hr{
+        width: 0;
+    }
+    #home-cover{
+        background-position: bottom;
+        background-size: cover;
+        height: auto;
+        padding: 30px 0 100px;
+    }
+    #home-cover2{
+        background-position: bottom;
+        background-size: cover;
+    }
+    a.strt-srch{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .centered2{
+        transform:translate(300px,-170%)
+    }
+    .all-titlesh4{
+        font-size:18px;
+        margin: 0 auto 50px;
+    }
+    .Count-box h5{
+        font-size:20px
+    }
+    .Count-boxaf img{
+        width:30px;
+        margin:20px 0
+    }
+    .Count-boxbf img{
+        width:30px;
+        margin:20px 0
+    }
+    .Count-box{
+        width:100%
+    }
+    .fam-safebox h3{
+        font-size:20px
+    }
+    .navbar{
+        background:#011b2c
+    }
+    .vesco-nav-wrapper{
+        padding:0
+    }
+    .navbar-toggle{
+        background-color:transparent;
+        border:0 solid #fff;
+        border-radius:0
+    }
+    .navbar-toggle .icon-bar{
+        display:block;
+        width:30px;
+        height:2px;
+        border-radius:0
+    }
+    .navbar-toggle{
+        position:relative;
+        float:right;
+        margin-right:12px;
+        padding:9px 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        background-color:transparent;
+        background-image:none;
+        border:1px solid transparent;
+        border-radius:4px
+    }
+    .navbar-nav{
+        float:none!important;
+        margin:0 auto;
+        text-align:center;
+        padding:20px 20%
+    }
+    #customers-testimonials{
+        padding:20px 0
+    }
+    footer h4{
+        font-size:13px
+    }
+    .cstm-cntctf{
+        padding:7px
+    }
+    ul.lis-mnu-f li{
+        margin:0 10px
+    }
+    .col-md-2-cstm{
+        width:50%;
+        margin:0;
+        float:left
+    }
+    .dos-boxes{
+        height:100%
+    }
+    #dos{
+        height:auto
+    }
+    #dos h2{
+        font-size: 28px;
+    }
+    #faq{
+        background-size: unset;
+        height:auto
+    }
+    .col-md-2m,.col-md-3cm{
+        text-align:center;
+        margin-bottom:20px
+    }
+    ul.lis-mnu-f{
+        display:block
+    }
+    #home-heading h3{
+        font-size:25px
+    }
+    #home-heading h4{
+        font-size:15px
+    }
+    #home-heading h5{
+        font-size:32px
+    }
+    input#firstname,input#lastname,select#stts{
+        width:100%;
+        border-bottom:none;
+        border-top:none;
+        border-right:none;
+        border-left:none
+    }
+    #btn-frm-hm{
+        width:100%
+    }
+    button#btn-frm-hm{
+        border:none;
+        border-top-right-radius:0;
+        border-bottom-right-radius:5px;
+        border-bottom-left-radius:5px;
+        float:none
+    }
+    .content-title h3{
+        font-size:24px;
+        margin: 0;
+    }
+    .scl-mda-f{
+        float:none
+    }
+    ul.lis-mnu-f-scl li{
+        text-align:center!important;
+    }
+    .container-cstmzd{
+        width:80%
+    }
+    .owl-prev img{
+        width:50px
+    }
+    .owl-prev{
+        left:-6rem!important
+    }
+    .owl-next img{
+        width:50px
+    }
+    .owl-next{
+        right:-6rem!important
+    }
+    .navbar-brand{
+        font-size:18px
+    }
+}
+@media(max-width:320px){
+    .centered2{
+        transform:translate(300px,-170%)
+    }
+    .all-titlesh4{
+        font-size:18px
+    }
+    .Count-box h5{
+        font-size:20px
+    }
+    .Count-boxaf img{
+        width:30px;
+        margin:20px 0
+    }
+    .Count-boxbf img{
+        width:30px;
+        margin:20px 0
+    }
+    .Count-box{
+        width:100%
+    }
+    .fam-safebox h3{
+        font-size:20px
+    }
+    .navbar{
+        background:#011b2c
+    }
+    .vesco-nav-wrapper{
+        padding:0
+    }
+    .navbar-toggle{
+        background-color:transparent;
+        border:0 solid #fff;
+        border-radius:0
+    }
+    .navbar-toggle .icon-bar{
+        display:block;
+        width:30px;
+        height:2px;
+        border-radius:0
+    }
+    .navbar-toggle{
+        position:relative;
+        float:right;
+        margin-right:12px;
+        padding:9px 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        background-color:transparent;
+        background-image:none;
+        border:1px solid transparent;
+        border-radius:4px
+    }
+    .navbar-nav{
+        float:none!important;
+        margin:0 auto;
+        text-align:center;
+        padding:20px 20%
+    }
+    #customers-testimonials{
+        padding:0
+    }
+    footer h4{
+        font-size:13px
+    }
+    .cstm-cntctf{
+        padding:7px
+    }
+    ul.lis-mnu-f li{
+        margin:0 10px
+    }
+    .col-md-2-cstm{
+        width:33%;
+        margin:0;
+        float:left
+    }
+    .dos-boxes{
+        height:100%
+    }
+    #dos{
+        height:auto
+    }
+    #faq{
+        background-size: unset;
+        height:auto
+    }
+    .col-md-2m,.col-md-3cm{
+        text-align:center;
+        margin-bottom:20px
+    }
+    ul.lis-mnu-f{
+        display:block
+    }
+    #home-heading h3{
+        font-size:25px
+    }
+    #home-heading h4{
+        font-size:15px
+    }
+    #home-heading h5{
+        font-size:32px
+    }
+    input#firstname,input#lastname,select#stts{
+        width:100%;
+        border-bottom:none;
+        border-top:none;
+        border-right:none;
+        border-left:none
+    }
+    #btn-frm-hm{
+        width:100%
+    }
+    button#btn-frm-hm{
+        border:none;
+        border-top-right-radius:0;
+        border-bottom-right-radius:5px;
+        border-bottom-left-radius:5px;
+        float:none
+    }
+    .content-title h3{
+        font-size:23px
+    }
+    .scl-mda-f{
+        float:none
+    }
+    ul.lis-mnu-f-scl li{
+        text-align:center!important;
+    }
+    .container-cstmzd{
+        width:80%
+    }
+    .owl-prev img{
+        width:50px
+    }
+    .owl-prev{
+        left:-6rem!important
+    }
+    .owl-next img{
+        width:50px
+    }
+    .owl-next{
+        right:-6rem!important
+    }
+}

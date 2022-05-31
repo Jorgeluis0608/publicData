@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Public data USA search billions of public data records instantly">
+    <meta name="keywords"
+        content="public, data, usa, search, voter registration, records, public directory, vehicle sales, campaign contributions">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Public Data USA</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+    <header>
+        <nav class="navbar navbar-mynv">
+            <div class="container">
+                <div class="vesco-nav-wrapper">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#vesco-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/index.php">
+                            Public Data USA
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="vesco-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a class="smooth-scroll active" href="/index.php">Home</a></li>
+                            <li><a class="smooth-scroll" href="/index.php#home-heading">Search</a></li>
+                            <li><a class="smooth-scroll" href="/address.php#home-heading">Address Search</a></li>
+                            <li><a class="smooth-scroll" href="https://publicdatausa.com/index.php#about">About us</a>
+                            </li>
+                            <li><a class="smooth-scroll cstm-cntct"
+                                    href="https://publicdatausa.com/contact.php">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div id="home-cover" class="bg-parallax animated fadeIn">
+            <div id="home-content-box">
+                <div id="home-content-box-inner" class="text-center">
+                    <div id="home-heading" class="animated zoomIn">
+                        <h3>Free Public Data Search</h3>
+                        <h4>Search Public Data Online Instantly!</h4>
+                        <div id="home-bx" class="animated zoomIn">
+                            <form class="home-search-frm" action="new-search.php">
+                                <input type="text" id="firstname" class="frm-bxs" name="first" placeholder="FIRST NAME">
+                                <input type="text" id="lastname" class="frm-bxs" name="last" placeholder="LAST NAME">
+                                <select id="stts" class="frm-bxs" name="stts">
+                                    <option value="all">All States</option>
+                                    <option value="AL">Alabama</option>
+                                    <option value="AK">Alaska</option>
+                                    <option value="AZ">Arizona</option>
+                                    <option value="AR">Arkansas</option>
+                                    <option value="CA">California</option>
+                                    <option value="CO">Colorado</option>
+                                    <option value="CT">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="FL">Florida</option>
+                                    <option value="GA">Georgia</option>
+                                    <option value="HI">Hawaii</option>
+                                    <option value="ID">Idaho</option>
+                                    <option value="IL">Illinois</option>
+                                    <option value="IN">Indiana</option>
+                                    <option value="IA">Iowa</option>
+                                    <option value="KS">Kansas</option>
+                                    <option value="KY">Kentucky</option>
+                                    <option value="LA">Louisiana</option>
+                                    <option value="ME">Maine</option>
+                                    <option value="MD">Maryland</option>
+                                    <option value="MA">Massachusetts</option>
+                                    <option value="MI">Michigan</option>
+                                    <option value="MN">Minnesota</option>
+                                    <option value="MS">Mississippi</option>
+                                    <option value="MO">Missouri</option>
+                                    <option value="MT">Montana</option>
+                                    <option value="NE">Nebraska</option>
+                                    <option value="NV">Nevada</option>
+                                    <option value="NH">New Hampshire</option>
+                                    <option value="NJ">New Jersey</option>
+                                    <option value="NM">New Mexico</option>
+                                    <option value="NY">New York</option>
+                                    <option value="NC">North Carolina</option>
+                                    <option value="ND">North Dakota</option>
+                                    <option value="OH">Ohio</option>
+                                    <option value="OK">Oklahoma</option>
+                                    <option value="OR">Oregon</option>
+                                    <option value="PA">Pennsylvania</option>
+                                    <option value="RI">Rhode Island</option>
+                                    <option value="SC">South Carolina</option>
+                                    <option value="SD">South Dakota</option>
+                                    <option value="TN">Tennessee</option>
+                                    <option value="TX">Texas</option>
+                                    <option value="UT">Utah</option>
+                                    <option value="VT">Vermont</option>
+                                    <option value="VA">Virginia</option>
+                                    <option value="WA">Washington</option>
+                                    <option value="WV">West Virginia</option>
+                                    <option value="WI">Wisconsin</option>
+                                    <option value="WY">Wyoming</option>
+                                </select>
+                                <button id="btn-frm-hm" class="frm-bxs" name="btn-frm-hm"><i
+                                        class="fa fa-search"></i></button>
+                            </form>
+                            <p>Try searching a friend, relative, or yourself...</p>
+                        </div>
+                        <!-- Start Change to add "its totally free" image -->
+                        <div id="totally-free">
+                            <img src="/img/totally-free.png" alt="totally-free">
+                        </div>
+                        <!-- End Change -->
+                    </div>
+                </div>
+            </div>
+            <div class="centered"><a href="#">
+                <!-- Start Change to replace arrow down image --> 
+                    <img src="/img/arrow-down.png" onerror="this.onerror=null; this.src='/img/cnvx.png'">
+                <!-- End Change -->
+            </a></div>
+        </div>
+    </section>
+
+    <section id="PeopleSearch">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3 class="all-titlesh3"><a id="about">What is Public Data USA?</a></h3>
+            </div>
+            <div class="container container-cstmzd">
+                <div class="row">
+                    <p class="pcrow"><strong>PublicDataUSA changes the landscape of US public data and makes it
+                            accessible, searchable, <span class="fr-bl">and free</span>.</strong></p>
+                    <p>Our team at PublicDataUSA LLC is making the world of US public data accessible to everyone, free
+                        of charge. We are bringing thousands of resources together to provide you a single searchable
+                        website. Public data reflects the world around us. Public data includes information recorded by
+                        local and federal governments. Our public information search includes
+                        people search, property records, vehicle records, patents, business registration, white house
+                        records, and campaign contributions. Students, journalists, data enthusiasts, and researchers
+                        can use this resource to help answer questions about the world we live in.
+                    </p>
+                </div>
+            </div>
+            <h4 class="all-titlesh4">Available Types of Public Data</h4>
+            <div class="container container-cstmzd">
+                <div class="row">
+                    <div class="col-md-2 col-md-2-cstm">
+                        <div class="">
+                            <img src="/img/pbd/pbd-1.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-1.png'">
+                            <h6>People<br />Search</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-2.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-2.png'">
+                        <h6>Voter<br />Registration</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-3.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-3.png'">
+                        <h6>Property<br />Registration</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-4.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-4.png'">
+                        <h6>Corporate<br />Registration</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-5.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-5.png'">
+                        <h6>Campaign<br />Contribution</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-6.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-6.png'">
+                        <h6>Registered<br />Agents</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-7.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-7.png'">
+                        <h6>White House<br />Visitors</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-8.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-8.png'">
+                        <h6>Vehicle Sales<br />Record</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-9.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-9.png'">
+                        <h6>Business listings</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-10.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-10.png'">
+                        <h6>US Customs<br />Data</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-11.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-11.png'">
+                        <h6>Public Directory<br />Listings</h6>
+                    </div>
+                    <div class="col-md-2 col-md-2-cstm">
+                        <img src="/img/pbd/pbd-12.webp" onerror="this.onerror=null; this.src='/img/pbd/pbd-12.png'">
+                        <h6>Financial<br />Cases</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dos">
+        <!-- Start Change ... remove old "do's and don't" html and add new -->
+        <!-- <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-md-6np">
+                    <div class="lef-bx-do">
+                        <div class="lef-bx-do-up">
+                            <img src="/img/do/dosdnts-o.webp"
+                                onerror="this.onerror=null; this.src='/img/do/dosdnts-o.png'">
+                            <h3>Do's</h3>
+                        </div>
+                        <div class="lef-bx-do-down">
+                            <div class="lef-bx-do-down-box">
+                                <div class="lef-bx-do-down-box-lef"><img src="/img/do/dosdnts-1.webp"
+                                        onerror="this.onerror=null; this.src='/img/do/dosdnts-1.png'"></div>
+                                <div class="lef-bx-do-down-box-righ">
+                                    <h5>Find a Lost Love</h5>
+                                    <p>Use our public data search to find and reconnect with a lost love. </p>
+                                </div>
+                            </div>
+                            <div class="lef-bx-do-down-box">
+                                <div class="lef-bx-do-down-box-lef"><img src="/img/do/dosdnts-2.webp"
+                                        onerror="this.onerror=null; this.src='/img/do/dosdnts-2.png'"></div>
+                                <div class="lef-bx-do-down-box-righ">
+                                    <h5>Check Yourself</h5>
+                                    <p>It's good to know what's out there about you! </p>
+                                </div>
+                            </div>
+                            <div class="lef-bx-do-down-box">
+                                <div class="lef-bx-do-down-box-lef"><img src="/img/do/dosdnts-3.webp"
+                                        onerror="this.onerror=null; this.src='/img/do/dosdnts-3.png'"></div>
+                                <div class="lef-bx-do-down-box-righ">
+                                    <h5>Check your Neighbors</h5>
+                                    <p>Learn something new and make a connection!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-6np">
+                    <div class="righ-bx-do">
+                        <div class="righ-bx-do-up">
+                            <img src="/img/do/dosdnts-n.webp">
+                            <h3>Don'ts</h3>
+                        </div>
+                        <div class="righ-bx-do-down">
+                            <div class="righ-bx-do-down-box">
+                                <div class="righ-bx-do-down-box-lef"><img src="/img/do/dosdnts-4.webp"
+                                        onerror="this.onerror=null; this.src='/img/do/dosdnts-4.png'"></div>
+                                <div class="righ-bx-do-down-box-righ">
+                                    <h5>Screen Employees</h5>
+                                    <p>You cannot use our service for any employment screening of any kind.</p>
+                                </div>
+                            </div>
+                            <div class="righ-bx-do-down-box">
+                                <div class="righ-bx-do-down-box-lef"><img src="/img/do/dosdnts-5.webp"
+                                        onerror="this.onerror=null; this.src='/img/do/dosdnts-5.png'"></div>
+                                <div class="righ-bx-do-down-box-righ">
+                                    <h5>Stalk or Spy</h5>
+                                    <p>Don't stalk, spy on people, or contact anyone against their wishes. </p>
+                                </div>
+                            </div>
+                            <div class="righ-bx-do-down-box">
+                                <div class="righ-bx-do-down-box-lef"><img src="/img/do/dosdnts-6.webp"
+                                        onerror="this.onerror=null; this.src='/img/do/dosdnts-6.png'"></div>
+                                <div class="righ-bx-do-down-box-righ">
+                                    <h5>Steal an Identity </h5>
+                                    <p>Don't use the service to gather someones information for any malicious or illegal
+                                        purpose</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container container-cstmzd">
+            <div class="text-center">
+                <h2>Do's & Don'ts</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 p-0 dos-block black">
+                    <img src="/img/do/dosdnts-1.png" />
+                    <h5>find a lost love</h5>
+                    <p>Use our public data search to find and reconnect with a lost love. </p>
+                </div>
+                <div class="col-md-4 p-0 dos-block">
+                    <img src="/img/do/dosdnts-2.png" />
+                    <h5>check yourself out</h5>
+                    <p>It's good to know what's out there about you for your own peace-of-mind! </p>
+                </div>
+                <div class="col-md-4 p-0 dos-block black">
+                    <img src="/img/do/dosdnts-3.png" />
+                    <h5>about your neighbors</h5>
+                    <p>Keep your family safe by knowing about the people near you.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 p-0 dos-block">
+                    <img src="/img/do/dosdnts-4.png" />
+                    <h5>screen employees</h5>
+                    <p>You cannot use our reports for employment screening of any kind.</p>
+                </div>
+                <div class="col-md-4 p-0 dos-block black">
+                    <img src="/img/do/dosdnts-5.png" />
+                    <h5>stalk or spy</h5>
+                    <p>Don't stalk, spy on people, or contact them against their wishes. </p>
+                </div>
+                <div class="col-md-4 p-0 dos-block">
+                    <img src="/img/do/dosdnts-6.png" />
+                    <h5>Steal An Identity</h5>
+                    <p>Don't use the service to gather someones information for any illegal purpose</p>
+                </div>
+            </div>
+            <!-- End Change -->
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div id="testimonials-cover" class="bg-parallax">
+            <div class="content-box">
+                <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s"
+                    data-wow-delay=".5s">
+                    <h3 class="csmr-tsti">Customer Testimonials</h3>
+                </div>
+                <div class="container container-cstmzd2">
+                    <div class="row wow animated bounceInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="col-md-12">
+                            <div id="customers-testimonials" class="text-center owl-carousel owl-theme">
+                                <div class="testimonial">
+                                    <img src="/img/quo.webp" onerror="this.onerror=null; this.src='/img/quo.png'"
+                                        class="img-responsive img-circlec" alt="testimonial">
+                                    <blockquote>
+                                        <p>Many desktop publishing packages an web page editors now use lorem
+                                            Ipsum as their default a model text, and a to search for lorem ips as a high
+                                            priority.</p>
+                                    </blockquote>
+                                    <div class="athr-bx">
+                                        <div class="testimonial-author">
+                                            <h6>Hannah</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <blockquote>
+                                        <p>Public Data USA has helped me find so many people who were lost to me!</p>
+                                    </blockquote>
+                                    <div class="athr-bx">
+                                        <div class="testimonial-author">
+                                            <h6>Caitlyn</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <blockquote>
+                                        <p>Public Data USA helped me find and research information about several
+                                            congressmen.</p>
+                                    </blockquote>
+                                    <div class="athr-bx">
+                                        <div class="testimonial-author">
+                                            <h6>Jackie</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <img src="/img/quo.webp" onerror="this.onerror=null; this.src='/img/quo.png'"
+                                        class="img-responsive img-circlec" alt="testimonial">
+                                    <blockquote>
+                                        <p>I was able to find the contact info for my best friend from childhood with
+                                            Public Data USA.</p>
+                                    </blockquote>
+                                    <div class="athr-bx">
+                                        <div class="testimonial-author">
+                                            <h6>Savannah</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Count">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="Count-box-all">
+                    <div class="Count-boxbf"><img src="/img/count.webp"
+                            onerror="this.onerror=null; this.src='/img/count.png'"></div>
+                    <div class="Count-box">
+                        <h4>Millions of searches and counting!</h4>
+                        <h5 class="counter">1,356,698,975</h5>
+                    </div>
+                    <div class="Count-boxaf"><img src="/img/count.webp"
+                            onerror="this.onerror=null; this.src='/img/count.png'"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3 class="all-titlesh3">Frequently Asked Questions</h3>
+            </div>
+            <div class="container container-cstmzd2">
+                <!-- Start Change ... remove old FAQ html and add new -->
+                <!-- <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="more-less2 glyphicon glyphicon-plus2"></i>How much does Public Data USA
+                                    cost?<i class="more-less glyphicon glyphicon-plus"></i></a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                Public Data USA unravels the world of public data and is available completely free.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="more-less2 glyphicon glyphicon-plus2"></i>Who uses PeopleSerach?<i
+                                        class="more-less glyphicon glyphicon-plus"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                Anyone can use the Public Data USA for searching and viewing public data. People that
+                                use it range from researchers, students, journalists, online daters, and people looking
+                                for old college buddies. </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="more-less2 glyphicon glyphicon-plus2"></i>What kind of data can I find?<i
+                                        class="more-less glyphicon glyphicon-plus"></i></a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                Our public data search includes people search, marketing data, property records, vehicle
+                                records, realtor information, healthcare providers, patents, business registration,
+                                campaign contributions. </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <i class="more-less2 glyphicon glyphicon-plus2"></i>Can I use this data for any
+                                    purposes described in the FCRA?<i
+                                        class="more-less glyphicon glyphicon-plus"></i></a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingFour">
+                            <div class="panel-body">
+                                No, Public Data USA may not be used for any purpose described in the FCRA including
+                                employment screening, tenant screening, credit checks, scholarship qualifications, or
+                                insurance eligibility. </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFive">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <i class="more-less2 glyphicon glyphicon-plus2"></i>Is the data complete and
+                                    accurate?<i class="more-less glyphicon glyphicon-plus"></i></a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingFive">
+                            <div class="panel-body">
+                                We strive to provide accurate and useful public data, but we cannot guarantee the
+                                accuracy of our data. There are many reasons that the data could be inaccurate, from
+                                typographical errors to data errors and user opt-outs. Please only use our data in
+                                combination with your own independent research.</div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div class="col-md-6 panel-group">
+                        <img src="/img/question.png" alt="question">
+                        <div>
+                            <h4>How much does Public Data USA cost?</h4>
+                            <p>Public Data USA unravels the world of public data and is available completely free.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 panel-group">
+                        <img src="/img/question.png" alt="question">
+                        <div>
+                            <h4>Who uses PeopleSerach?</h4>
+                            <p>Anyone can use the Public Data USA for searching and viewing public data. People that use it range from researchers, students, journalists, online daters, and people looking for old college buddies.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 panel-group">
+                        <img src="/img/question.png" alt="question">
+                        <div>
+                            <h4>What kind of data can I find?</h4>
+                            <p>Our public data search includes people search, marketing data, property records, vehicle records, realtor information, healthcare providers, patents, business registration, campaign contributions.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 panel-group">
+                        <img src="/img/question.png" alt="question">
+                        <div>
+                            <h4>Can I use this data for any purposes described in the FCRA?</h4>
+                            <p>No, Public Data USA may not be used for any purpose described in the FCRA including employment screening, tenant screening, credit checks, scholarship qualifications, or insurance eligibility.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 panel-group">
+                        <img src="/img/question.png" alt="question">
+                        <div>
+                            <h4>Is the data complete and accurate?</h4>
+                            <p>We strive to provide accurate and useful public data, but we cannot guarantee the accuracy of our data. There are many reasons that the data could be inaccurate, from typographical errors to data errors and user opt-outs. Please only use our data in combination with your own independent research.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Change -->
+            </div>
+        </div>
+    </section>
+    <section id="fam-safe">
+        <div class="fam-safebox">
+            <img src="/img/fam.webp" onerror="this.onerror=null; this.src='/img/fam.png'">
+            <h3>Our mission is to make public data <u>free</u> <br /> and <u>accessible</u>. Run a search Today!</h3>
+            <a href="" class="strt-srch">Start Search</a>
+        </div>
+    </section>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome2.min.css">
+
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap2.min.css">
+
+    <link rel="stylesheet" href="/css/animate/animate2.css">
+
+    <link rel="stylesheet" href="/css/magnific-popup/magnific-popup2.css">
+
+    <link rel="stylesheet" href="/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl-carousel/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="/css/responsive.css">
+    <footer>
+        <div class="container container-cstmzd3">
+            <!-- Start Change ... add star image -->
+            <div id="star">
+                <hr>
+                <img src="/img/star.png" alt="star">
+                <hr>
+            </div>
+            <!-- End Change -->
+        </div>
+        <div class="container container-cstmzd3">
+            <div class="row">
+                <p><span class="disclmr">Disclaimer:</span> You may not use our service or the information it provides
+                    to make decisions about consumer credit, employment, insurance, tenant screening, or any other
+                    purpose that would require FCRA compliance. Information contained on this site may have errors
+                    and/or not be inaccurate or complete. Data can be entered poorly and may otherwise not be free from
+                    defect. This system should not be relied upon as accurate and any data provided should be
+                    independently verified. This information is not to be used for any purpose described in the fair
+                    credit reporting act (FCRA). If your information appears on one of your pages and you would like to
+                    opt-out, simply click contact us and copy and paste the exact information you would like removed and
+                    allow 2-5 business days for opt-out request processing. All information and searches are subject to
+                    terms of use, legal restrictions, and applicable law. Information is deemed to be in the public
+                    domain and is the representation of the entities providing us this data. </p>
+            </div>
+            <div class="row">
+                <hr class="hr-f">
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-3cm" style="padding: 0;">
+                    <a href="" class="pps-f">PublicDataUSA LLC</a>
+                </div>
+                <div class="col-md-6 col-md-3cm">
+                    <ul class="lis-mnu-f">
+                        <li><a href="/index.php">Home</a></li>
+                        <li><a href="/index.php#home-heading">Search</a></li>
+                        <li><a href="/address.php#home-heading">Address Search</a></li>
+                        <li><a href="/index.php#about">About us</a></li>
+                        <li><a href="/contact.php">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-md-3cm" style="padding: 0;">
+                    <div class="scl-mda-f">
+                        <ul class="lis-mnu-f-scl">
+                            <li><a href=""><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/jqueryfull.js"></script>
+
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="/js/wow/wow.min.js"></script>
+
+    <script src="/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <script src="/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="/js/counter/jquery.waypoints.min.js"></script>
+    <script src="/js/counter/jquery.counterup.min.js"></script>
+
+    <script src="/js/easing/jquery.easing.1.3.js"></script>
+
+    <script src="/js/custom.js"></script>
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+    </script>
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less2")
+                .toggleClass('glyphicon-plus2 glyphicon-minus2');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+    </script>
+    <script
+        type="text/javascript">(function () { window['__CF$cv$params'] = { r: '70e59d3a5c880d48', m: 'HbEJMttecAINs1EJhIVmQEjzV5zLj2w0cWYg0uC.tgY-1653055389-0-AWflAWWLu+SEkCQwQaAV1Ad0DwhRPwh+sCidfD8DS3pNAykhVFhtv1FMCr71cM2ft0JsFTns5ZgakOQ6aygr0s/6PfQijrPOm6P1hDGojjJdvtjreXiEnQoaDmFgJB+ZFw==', s: [0xdb819cccae, 0x4c7d60d49a], } })();</script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+        data-cf-beacon='{"rayId":"70e59d3a5c880d48","token":"febdf84ecaf549e2adfc13561d6fec2a","version":"2021.12.0","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
